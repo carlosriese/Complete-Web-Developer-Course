@@ -113,7 +113,7 @@ section.projects {
     justify-content: space-evenly;
     align-items: center;
     min-width: 400px;
-    width: 90%;
+    width: 100%;
 }
 
 section.projects h2 {
@@ -171,3 +171,105 @@ div.facts a, div.news a {
     text-decoration: none;
 }
 
+section.contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: var(--color2);
+}
+
+section.contact h2 {
+    padding-top: 90px;
+    padding-bottom: 20px;
+    width: 100%;
+    font-family: var(--font1);
+    color: white;
+    text-align: center;
+}
+
+section.contact p {
+    padding-bottom: 40px;
+    width: 100%;
+    font-family: var(--font2);
+    color: white;
+    text-align: center;
+}
+
+div.cinfo label, div.cmsg label {
+    font-family: var(--font2);
+    color: white;
+    text-align: center;
+}
+
+div.cinfo input[type=text] {
+    min-width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-family: var(--font2);
+    text-indent: 20px;
+}
+
+div.cinfo input[type=email] {
+    min-width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-family: var(--font2);
+    text-indent: 20px;
+}
+
+div.cmsg textarea {
+   min-width: 400px;
+   height: 250px;
+   border-radius: 5px; 
+}
+
+div.cmsg button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px 30px;
+    position:relative;
+    float: right;
+    font-family: var(--font2);
+    background-color: var(--color5);
+    font-weight: bold;
+    color: var(--color2);
+    border: none;
+    border-radius: 5px;
+}
+
+div.cmsg button:hover {
+    color: white;
+    background-color: black;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 15px;
+    font-family: var(--font2);
+    color: white;
+    background-color: var(--color0);
+}
+
+.ftext p {
+    padding: 10px 0px;
+}
+
+.ficons a {
+    padding: 10px 0px;
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+}
+
+.ficons a:hover {
+    color: var(--color5);
+}
